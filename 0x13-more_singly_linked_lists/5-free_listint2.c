@@ -1,21 +1,21 @@
 #include "lists.h"
 
 /**
- * free_listint2 - frees a linked list
- * @head: pointer to the listint_t list to be freed
+ * free_listint2 - Deallocates Memory for a Linked List
+ * @head: Pointer to the listint_t List to Be Freed
  */
 void free_listint2(listint_t **head)
 {
-	listint_t *temp;
+	listint_t *temporary;
 
 	if (head == NULL)
 		return;
 
 	while (*head)
 	{
-		temp = (*head)->next;
+		temporary = (*head)->next;
 		free(*head);
-		*head = temp;
+		*head = temporary;
 	}
 
 	*head = NULL;
