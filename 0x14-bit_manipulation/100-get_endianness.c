@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * get_endianness - determines whether a machine follows little endian or big endian byte order.
- * Return: 0  for the bigger, 1 for the smaller
+ * get_endianness - checks if a machine is little or big endian
+ * Return: 0 for big, 1 for little
  */
 int get_endianness(void)
 {
