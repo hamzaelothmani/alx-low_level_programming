@@ -3,8 +3,8 @@
 
 /**
  * read_textfile- Read a text file and print its contents to the standard output STDOUT.
- * @filename: Text file being read
- * @letters: Number of letters to be read
+ * @filename: text file being read
+ * @letters: number of letters to be read
  * Return the actual number of bytes read and printed as 'w' when the function succeeds
  *        Return '0' when the function fails or when the filename is NULL.
  */
